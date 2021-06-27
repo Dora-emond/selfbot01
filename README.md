@@ -16,14 +16,14 @@
 ## Termux 
 ```bash
 > pkg install nodejs -y && pkg install git && pkg install ffampeg
-> git clone https://github.com/hazn-ini-bre/simple-selfbot
+> git clone https://github.com/HaznRe/simple-selfbot
 > cd simple-selfbot
 > npm i 
 > node index
 ```
 ## Pc 
 ```bash
-> git clone https://github.com/hazn-ini-bre/simple-selfbot
+> git clone https://github.com/HaznRe/simple-selfbot
 > cd simple-selfbot
 > npm i
 > node index
