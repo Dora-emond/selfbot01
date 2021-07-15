@@ -231,7 +231,7 @@ hazn.on('credentials-updated', () => {
              const hitung = await fetchJson('https://xinzbot-api.herokuapp.com/api/hitungmundur?apikey=XinzBot&tanggal=12&bulan=4', {method:'get'})
 		     const hiya = await fetchJson('https://xinzbot-api.herokuapp.com/api/ucapan?apikey=XinzBot&timeZone=Asia/Jakarta', {method:'get'})
 		     var p = '```'
-		    const tod =`${p}SELFBOT HAZN${p}
+		    const tod =`${p}SELFBOT DORA${p}
 ${p}Selamat ${hiya.result}${p}
 
 ${p}Hitung Mundur Bulan Puasa${p}
@@ -262,12 +262,9 @@ ${p}➸ ${prefix}sticker <reply media>${p}
 ${p}➸ ${prefix}topdf <reply img>${p}
 
 ${p}「THANK TOO」${p}
-${p}✔ Radya- My Friends${p}
-${p}✔ M HADI - My Lord${p}
-${p}✔ BRYAN- My Friends${p}
-${p}✔ FADHIL - My Friends${p}
-${p}✔ AFFIS - My Friends${p}
-${p}✔ FAUZY - My Friends${p}
+${p}✔ DORA- My Friends${p}
+${p}✔ MR YOGA- My Lord${p}
+${p}✔ Kawand Doraemond- My Friends${p}
 `           
             const main = {
             text: tod,
