@@ -51,7 +51,7 @@ const {
 	dev
 } = require('./lib/config.json')
 
-prefix = 'z'
+prefix = '.'
 fake = 'HAZN SELF'
 let gambar = "" || fs.readFileSync('./media/gambar/biasa.png')
 self = true
@@ -114,7 +114,7 @@ hazn.on('credentials-updated', () => {
 			const isCmd = body.startsWith(prefix)
            
             const botNumber = hazn.user.jid
-			const ownerNumber = ['6281539336834@s.whatsapp.net']
+			const ownerNumber = ['6283115810116@s.whatsapp.net']
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			pushname = hazn.contacts[sender] != undefined ? hazn.contacts[sender].vname || hazn.contacts[sender].notify : undefined
@@ -221,7 +221,7 @@ hazn.on('credentials-updated', () => {
             switch(command) {
              case 'menu':
              case 'help':             
-             //let patner = '6282147334265@s.whatsapp.net' 
+             //let patner = '6282387704390@s.whatsapp.net' 
              //let patner2 = '628990911211@s.whatsapp.net' 
              //let patner3 = '628976014170@s.whatsapp.net' 
              //let patner4 = '6287724880504@s.whatsapp.net' 
